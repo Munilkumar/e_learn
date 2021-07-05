@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Lato','Arial','sans-serif';
+    font-weight: 300 ;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+h1
+{
+    margin: 0;
+    font-size: 160%;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)),url(img/front-image-discussion.jpg);
+    /*background-image: linear-gradient( rgba(56, 70, 77, 0.85), rgba(56, 70, 77, 0.85) ),url(img/front-image-discussion.jpg);*/
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.heading
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    max-width: 1140px;
+    transform: translate(-50%,-50%);
+    
+}
+.pro
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    font-weight: 300;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #38464d;
+    transition: background-color 0.2s, color 0.2s; 
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+    background-color: /*#26afeb*/#f0f3f3;
+    border: 2px solid #26afeb;
+    margin-right: 30px;
+}
+.btn-ghost:link,
+.btn-ghost:visited
+{
+    border: 1px solid #26afeb;
+    
+    /*border: 1px solid #f9fafa;*/
+}
+
+.btn-full:hover,
+.btn-full:active
+{
+   /* background-color: #008cc9;*/
+    background-color: #26afeb;
+    border: 2px solid #f0f3f3;
+    color: #f0f3f3;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active
+{
+    background-color: #f9fafa;
+    color:#26afeb;
+    transition: background-color 0.2s, color 0.2s;  
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px 0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    letter-spacing: 2px;
+    border-bottom: 2px solid transparent;
+    transition:border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active
+{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #26afeb;
+}
